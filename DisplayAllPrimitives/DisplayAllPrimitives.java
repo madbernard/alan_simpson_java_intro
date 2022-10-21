@@ -9,6 +9,16 @@ public class DisplayAllPrimitives {
         System.out.println(true); // Boolean
         System.out.println(0b00010); // Binary
         System.out.println(0xab1e); // Hex
-        System.out.println("String\nFTW"); // String
+        System.out.println("String\nFTW\n\n...now to print variables"); // String
+        
+        int firstInt = 44;
+        String firstString = "this string is in a variable";
+        boolean firstBool = false;
+        final int MAGIC_NUMBER = 7;
+        
+        System.out.println(firstInt);
+        System.out.println(firstString);
+        System.out.println(firstBool);
+        System.out.println(MAGIC_NUMBER);
     }
 }
